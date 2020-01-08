@@ -3,7 +3,7 @@ This application is for saving and managing notes and various widgets inside the
 
 This project is an attempt to test SwiftUI how efficient and easy it is to use
 
-![](menu.gif =193x400)
+![](menu.gif)
 
 Although this application is mainly intended for experiments, it nonetheless implements all the basic necessary functionality of such an application. 
 
