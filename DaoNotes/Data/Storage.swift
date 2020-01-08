@@ -4,7 +4,7 @@
 //
 //  Created by Denis Mikaya on 06.08.19.
 //  Copyright © 2019 Denis Mikaya. All rights reserved.
-//
+//  
 
 import SwiftUI
 import Combine
