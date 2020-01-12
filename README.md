@@ -22,6 +22,7 @@ It turned out that scrolling and animating menus can be implemented using pure S
 </p>
 <br/>
 <br/>
+
 ### Editing notes
 Editing notes is implemented by extending the UITextView and using it through the UIViewRepresentable
 
@@ -30,6 +31,7 @@ Editing notes is implemented by extending the UITextView and using it through th
 </p>
 <br/>
 <br/>
+
 ### Various elements
 Different widgets can be easily integrated using the wrapper UIViewRepresentable
 
@@ -40,6 +42,7 @@ Different widgets can be easily integrated using the wrapper UIViewRepresentable
 </p>
 <br/>
 <br/>
+
 ### iCloud
 Notes can be stored locally or in iCloud (implemented simple synchronization). They can also be individually shared with other users. If changes have occurred in the notes, a push notification will be received.
 
