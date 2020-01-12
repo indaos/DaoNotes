@@ -39,6 +39,8 @@ Different widgets can be easily integrated using the wrapper UIViewRepresentable
 
 <p align="center">
   <img src="edit_misc.gif"  width="240" height="500" >
+    <img src="edit_misc2.gif"  width="240" height="500" >
+
 </p>
 <br/>
 <br/>
