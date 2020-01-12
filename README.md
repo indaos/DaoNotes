@@ -15,7 +15,7 @@ Although this application is mainly intended for experiments, it implements all 
 * sharing individual notes for individual users
 
 ### Menu
-Notes can be edited, change the styles of the text, do copy / paste. Also, it supports tables, images, etc.
+It turned out that scrolling and animating menus can be implemented using pure SwiftUI
 
 <p align="center">
   <img src="menu.gif"  width="240" height="500" >
@@ -25,6 +25,7 @@ Notes can be edited, change the styles of the text, do copy / paste. Also, it su
 <br/>
 
 ### Editing notes
+Editing notes is implemented by extending the UITextView and using it through the UIViewRepresentable
 
 <p align="center">
   <img src="edit_note.gif"  width="240" height="500" >
@@ -34,6 +35,7 @@ Notes can be edited, change the styles of the text, do copy / paste. Also, it su
 <br/>
 
 ### Various elements
+Different widgets can be easily integrated using the wrapper UIViewRepresentable
 
 <p align="center">
   <img src="edit_misc.gif"  width="240" height="500" >
@@ -43,7 +45,7 @@ Notes can be edited, change the styles of the text, do copy / paste. Also, it su
 <br/>
 
 ### iCloud
-Notes can be stored locally or in the iCloud (implemented simple synchronization). They can also be individually shared with other users. If changes have occurred in the notes, a notification will be sent.
+Notes can be stored locally or in iCloud (implemented simple synchronization). They can also be individually shared with other users. If changes have occurred in the notes, a push notification will be received.
 
 <p align="center">
   <img src="icloud.gif"  width="240" height="500" >
