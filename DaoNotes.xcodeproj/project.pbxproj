@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		321A992023CB1372004E05DE /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321A991823CB1372004E05DE /* GridLayout.swift */; };
+		321A992223CB1383004E05DE /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321A992123CB1383004E05DE /* TableView.swift */; };
+		321A992423CB13DD004E05DE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321A992323CB13DD004E05DE /* LoadingView.swift */; };
 		321AB52B236AE4A7005AB9AA /* FindFieldCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321AB52A236AE4A7005AB9AA /* FindFieldCoordinator.swift */; };
 		32440C9423B4D2D3005B3DC0 /* ColorSheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32440C9323B4D2D3005B3DC0 /* ColorSheme.swift */; };
-		32440CCF23B9DB18005B3DC0 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32440CBD23B9DB18005B3DC0 /* GridLayout.swift */; };
 		32440CD123BA216C005B3DC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32440CD023BA216C005B3DC0 /* ContentView.swift */; };
 		3251184F235B707B001FEF7D /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328675EF233E4F2300CC2847 /* SQLite.framework */; };
 		32511852235C738A001FEF7D /* TextAreaCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32511851235C738A001FEF7D /* TextAreaCoordinator.swift */; };
@@ -35,11 +37,9 @@
 		32DA2701233E4DCF0094B122 /* SectionEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DA26E1233E4DCF0094B122 /* SectionEditor.swift */; };
 		32DA2702233E4DCF0094B122 /* iCloudPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DA26E2233E4DCF0094B122 /* iCloudPanel.swift */; };
 		32DA2703233E4DCF0094B122 /* SectionsPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DA26E3233E4DCF0094B122 /* SectionsPanel.swift */; };
-		32DA2704233E4DCF0094B122 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DA26E5233E4DCF0094B122 /* LoadingView.swift */; };
 		32DA2705233E4DCF0094B122 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DA26E7233E4DCF0094B122 /* TextArea.swift */; };
 		32DA2706233E4DCF0094B122 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DA26E8233E4DCF0094B122 /* ImagePicker.swift */; };
 		32DA2707233E4DCF0094B122 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DA26E9233E4DCF0094B122 /* Note.swift */; };
-		32DA2709233E4DCF0094B122 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DA26EC233E4DCF0094B122 /* TableView.swift */; };
 		32DA270A233E4DCF0094B122 /* NoteEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DA26ED233E4DCF0094B122 /* NoteEditor.swift */; };
 /* End PBXBuildFile section */
 
@@ -129,9 +129,11 @@
 
 /* Begin PBXFileReference section */
 		3206F3DC2340AEFB00F4B36E /* Test1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test1.swift; sourceTree = "<group>"; };
+		321A991823CB1372004E05DE /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		321A992123CB1383004E05DE /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		321A992323CB13DD004E05DE /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		321AB52A236AE4A7005AB9AA /* FindFieldCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFieldCoordinator.swift; sourceTree = "<group>"; };
 		32440C9323B4D2D3005B3DC0 /* ColorSheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSheme.swift; sourceTree = "<group>"; };
-		32440CBD23B9DB18005B3DC0 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridLayout.swift; path = ../GridLayout/GridLayout.swift; sourceTree = "<group>"; };
 		32440CD023BA216C005B3DC0 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		325118212357A9EE001FEF7D /* CKPush.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CKPush.entitlements; sourceTree = "<group>"; };
 		32511851235C738A001FEF7D /* TextAreaCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAreaCoordinator.swift; sourceTree = "<group>"; };
@@ -162,11 +164,9 @@
 		32DA26E1233E4DCF0094B122 /* SectionEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionEditor.swift; sourceTree = "<group>"; };
 		32DA26E2233E4DCF0094B122 /* iCloudPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iCloudPanel.swift; sourceTree = "<group>"; };
 		32DA26E3233E4DCF0094B122 /* SectionsPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionsPanel.swift; sourceTree = "<group>"; };
-		32DA26E5233E4DCF0094B122 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = ../Util/LoadingView.swift; sourceTree = "<group>"; };
 		32DA26E7233E4DCF0094B122 /* TextArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
 		32DA26E8233E4DCF0094B122 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		32DA26E9233E4DCF0094B122 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
-		32DA26EC233E4DCF0094B122 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableView.swift; path = Table/TableView.swift; sourceTree = "<group>"; };
 		32DA26ED233E4DCF0094B122 /* NoteEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -310,8 +310,8 @@
 				32DA26E0233E4DCF0094B122 /* SettingsPanel.swift */,
 				32DA26E1233E4DCF0094B122 /* SectionEditor.swift */,
 				32DA26E2233E4DCF0094B122 /* iCloudPanel.swift */,
+				321A992323CB13DD004E05DE /* LoadingView.swift */,
 				32DA26E3233E4DCF0094B122 /* SectionsPanel.swift */,
-				32DA26E5233E4DCF0094B122 /* LoadingView.swift */,
 			);
 			path = Panels;
 			sourceTree = "<group>";
@@ -322,11 +322,11 @@
 				32DA26E7233E4DCF0094B122 /* TextArea.swift */,
 				32DA26E8233E4DCF0094B122 /* ImagePicker.swift */,
 				32DA26E9233E4DCF0094B122 /* Note.swift */,
-				32DA26EC233E4DCF0094B122 /* TableView.swift */,
+				321A992123CB1383004E05DE /* TableView.swift */,
 				32DA26ED233E4DCF0094B122 /* NoteEditor.swift */,
+				321A991823CB1372004E05DE /* GridLayout.swift */,
 				32511851235C738A001FEF7D /* TextAreaCoordinator.swift */,
 				321AB52A236AE4A7005AB9AA /* FindFieldCoordinator.swift */,
-				32440CBD23B9DB18005B3DC0 /* GridLayout.swift */,
 			);
 			path = Editor;
 			sourceTree = "<group>";
@@ -503,11 +503,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				32DA26FB233E4DCF0094B122 /* NoteList.swift in Sources */,
-				32DA2709233E4DCF0094B122 /* TableView.swift in Sources */,
 				32DA2705233E4DCF0094B122 /* TextArea.swift in Sources */,
 				32DA2706233E4DCF0094B122 /* ImagePicker.swift in Sources */,
 				32DA26F1233E4DCF0094B122 /* CKClient.swift in Sources */,
 				32DA270A233E4DCF0094B122 /* NoteEditor.swift in Sources */,
+				321A992223CB1383004E05DE /* TableView.swift in Sources */,
 				32511852235C738A001FEF7D /* TextAreaCoordinator.swift in Sources */,
 				32DA26F9233E4DCF0094B122 /* HomeView.swift in Sources */,
 				32DA2703233E4DCF0094B122 /* SectionsPanel.swift in Sources */,
@@ -518,9 +518,9 @@
 				32DA26B7233E4D140094B122 /* SceneDelegate.swift in Sources */,
 				32DA26FA233E4DCF0094B122 /* LeftMenu.swift in Sources */,
 				32DA2702233E4DCF0094B122 /* iCloudPanel.swift in Sources */,
-				32440CCF23B9DB18005B3DC0 /* GridLayout.swift in Sources */,
+				321A992023CB1372004E05DE /* GridLayout.swift in Sources */,
 				321AB52B236AE4A7005AB9AA /* FindFieldCoordinator.swift in Sources */,
-				32DA2704233E4DCF0094B122 /* LoadingView.swift in Sources */,
+				321A992423CB13DD004E05DE /* LoadingView.swift in Sources */,
 				32DA2701233E4DCF0094B122 /* SectionEditor.swift in Sources */,
 				32440C9423B4D2D3005B3DC0 /* ColorSheme.swift in Sources */,
 				32DA2707233E4DCF0094B122 /* Note.swift in Sources */,
